@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '1.9.3'
 
 gem 'rails', '3.2.16'
-
 
 group :development do
 	gem 'sqlite3'
@@ -25,3 +24,4 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'haml-rails'
+gem 'html2haml'
